@@ -1,6 +1,22 @@
 body {}
 
-.product-card {}
+.product-card {
+  &__aside {}
+  &__img {}
+  &__header {}
+  &__category {}
+  &__title {}
+  &__content {}
+  &__text {}
+  &__footer {}
+  &__price {
+    &--prev {}
+  }
+  &__btn {
+    &--green {}
+    &-icon {}
+  }
+}
 
 
 /* Preconfigured attribution: */
