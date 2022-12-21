@@ -1,12 +1,38 @@
-body {}
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--cream);
+  padding: 24px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .product-card {
+  border-radius: 16px;
+  background-color: var(--white);
+  background-clip: padding-box;
+  max-width: 686px; //375px min mobile size, padding 2x 16px
+  width: calc(100% - 32px);
   &__aside {}
-  &__img {}
+  &__pic {}
+  &__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0 0;
+  }
   &__header {}
   &__category {}
   &__title {}
-  &__content {}
+  &__content {
+    padding: 24px;
+  }
   &__text {}
   &__footer {}
   &__price {
