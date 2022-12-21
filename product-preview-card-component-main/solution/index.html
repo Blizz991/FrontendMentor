@@ -20,7 +20,11 @@
 <body>
   <article class="product-card">
     <aside class="product-card__aside">
-      <img srcset="images/image-product-mobile 480w, images/image-product-desktop.jpg 600w" sizes="(max-width: 768px) 480w, 600px" alt="Gabrielle - Chanel perfume bottle" class="product-card__img">
+      <picture class="product-card__pic">
+        <source media="(max-width: 767px)" srcset="images/image-product-mobile.jpg">
+        <source media="(min-width: 768px)" srcset="images/image-product-desktop.jpg">
+        <img src="images/image-product-mobile.jpg" alt="Gabrielle - Chanel perfume bottle" class="product-card__img">
+      </picture>
     </aside>
     <header class="product-card__header">
       <small class="product-card__category">Perfume</small>
