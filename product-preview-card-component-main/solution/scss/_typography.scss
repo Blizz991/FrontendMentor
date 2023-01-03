@@ -4,8 +4,10 @@ body {
   color: var(--dark-grayish-blue); //Color feels off, but I don't see what color it would be otherwise.
 }
 
-h1,
-h2 {
+h1 {
   font-family: $highlightFont;
   color: var(--very-dark-blue);
+  font-size: 32px;
+  line-height: 2rem;
+  margin: 8px 0 16px;
 }
