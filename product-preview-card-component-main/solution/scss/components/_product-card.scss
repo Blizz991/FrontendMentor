@@ -12,7 +12,10 @@
     border-radius: 16px 16px 0 0;
   }
   &__header {}
-  &__category {}
+  &__category {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
   &__title {}
   &__content {
     padding: 24px;
@@ -20,9 +23,17 @@
   &__text {}
   &__footer {}
   &__price {
-    font-family: $highlightFont;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    &--curr {
+      font-size: 2rem;
+      font-family: $highlightFont;
+      color: var(--dark-cyan);
+    }
     &--prev {
-      font-family: $defaultFont;
+      text-decoration: line-through;
     }
   }
   &__btn {

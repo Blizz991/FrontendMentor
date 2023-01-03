@@ -18,28 +18,42 @@
   height: auto;
   border-radius: 16px 16px 0 0;
 }
+.product-card__category {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
 .product-card__content {
   padding: 24px;
 }
 .product-card__price {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.product-card__price--curr {
+  font-size: 2rem;
   font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  color: var(--dark-cyan);
 }
 .product-card__price--prev {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
 }
 body {
   font-size: 14px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: var(--dark-grayish-blue);
 }
 
 h1,
 h2 {
   font-family: "Fraunces", Arial, Helvetica, sans-serif;
+  color: var(--very-dark-blue);
 }
 
 body {
   background-color: var(--cream);
-  padding: 24px 16px;
+  padding: 24px 16px 48px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -49,6 +63,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 24px 12px;
 }
 
 .attribution a {

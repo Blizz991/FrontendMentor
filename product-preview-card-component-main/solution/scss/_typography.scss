@@ -1,9 +1,11 @@
 body {
   font-size: 14px;
   font-family: $defaultFont;
+  color: var(--dark-grayish-blue);
 }
 
 h1,
 h2 {
   font-family: $highlightFont;
+  color: var(--very-dark-blue);
 }
