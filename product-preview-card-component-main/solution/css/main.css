@@ -11,7 +11,7 @@
   background-color: var(--white);
   background-clip: padding-box;
   max-width: 686px;
-  width: calc(100% - 32px);
+  width: calc(100% - 16px);
 }
 .product-card__img {
   max-width: 100%;
@@ -20,7 +20,7 @@
 }
 .product-card__category {
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.5rem;
 }
 .product-card__content {
   padding: 24px;
@@ -74,7 +74,8 @@ h2 {
 
 body {
   background-color: var(--cream);
-  padding: 24px 16px 48px;
+  padding: 24px 8px 48px;
+  margin: 0;
   display: flex;
   align-items: center;
   flex-direction: column;

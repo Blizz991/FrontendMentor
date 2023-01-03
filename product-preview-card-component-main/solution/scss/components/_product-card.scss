@@ -2,8 +2,8 @@
   border-radius: 16px;
   background-color: var(--white);
   background-clip: padding-box;
-  max-width: 686px; //375px min mobile size, padding 2x 16px
-  width: calc(100% - 32px);
+  max-width: 686px;
+  width: calc(100% - $bodySidePadding*2);
   &__aside {}
   &__pic {}
   &__img {
@@ -14,7 +14,7 @@
   &__header {}
   &__category {
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.5rem;
   }
   &__title {}
   &__content {
