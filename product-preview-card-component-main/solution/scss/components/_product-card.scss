@@ -2,14 +2,26 @@
   border-radius: 16px;
   background-color: var(--white);
   background-clip: padding-box;
-  max-width: 686px;
+  max-width: 480px; //Mobile img width
   width: calc(100% - $bodySidePadding*2);
-  &__aside {}
+  @media (min-width: 686px) {
+    display: flex;
+    max-width: 600px; //Desktop img width
+  }
+  &__aside {
+    @media (min-width: 686px) {
+      min-width: 50%;
+    }
+  }
   &__pic {}
   &__img {
     max-width: 100%;
     height: auto;
     border-radius: 16px 16px 0 0;
+    @media (min-width: 686px) {
+      height: 100%;
+      border-radius: 16px 0 0 16px;
+    }
   }
   &__header {}
   &__category {
@@ -19,6 +31,11 @@
   &__title {}
   &__content {
     padding: 12px 24px 24px;
+    @media (min-width: 686px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
   }
   &__text {
     margin-bottom: 24px;
