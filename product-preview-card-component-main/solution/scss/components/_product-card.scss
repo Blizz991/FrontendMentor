@@ -20,7 +20,10 @@
   &__text {}
   &__footer {}
   &__price {
-    &--prev {}
+    font-family: $highlightFont;
+    &--prev {
+      font-family: $defaultFont;
+    }
   }
   &__btn {
     &--green {}

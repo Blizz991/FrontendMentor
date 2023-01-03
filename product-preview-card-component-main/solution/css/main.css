@@ -21,6 +21,22 @@
 .product-card__content {
   padding: 24px;
 }
+.product-card__price {
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+}
+.product-card__price--prev {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 14px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", Arial, Helvetica, sans-serif;
+}
+
 body {
   background-color: var(--cream);
   padding: 24px 16px;
