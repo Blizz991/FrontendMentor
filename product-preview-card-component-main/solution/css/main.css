@@ -111,6 +111,7 @@ body {
   align-items: center;
   flex-direction: column;
   line-height: 1.5rem;
+  min-height: 100vh;
 }
 
 /* Preconfigured attribution: */
