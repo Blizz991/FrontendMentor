@@ -1,0 +1,5 @@
+{
+  "eslint.workingDirectories": [
+    "./interactive-comments-section-main/solution",
+  ]
+}
