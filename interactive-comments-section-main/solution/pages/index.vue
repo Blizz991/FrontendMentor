@@ -13,7 +13,5 @@ const { data } = await useAsyncData('content-/data', () =>
 
 </script>
 <template>
-  <section>
-    
-  </section>
+  <Comments />
 </template>

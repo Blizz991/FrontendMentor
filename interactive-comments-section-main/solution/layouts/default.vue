@@ -1,6 +1,5 @@
 <template>
-  <section>
-    <h1>This is a default layout shared across all pages</h1>
+  <section class="bg-very-light-gray h-screen flex justify-center items-center">
     <slot></slot>
   </section>
 </template>
