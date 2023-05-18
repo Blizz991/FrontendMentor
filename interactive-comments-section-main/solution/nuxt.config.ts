@@ -11,4 +11,10 @@ export default defineNuxtConfig({
   app: {
     rootTag: "main"
   },
+  modules: [
+    '@nuxt/content'
+  ],
+  // content: {
+  //   //
+  // },
 })
