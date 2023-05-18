@@ -1,9 +1,8 @@
 <template>
-  <p class="w-full mt-2">
+  <p class="w-full text-grayish-blue mt-2">
     <!-- Show span if this is a reply to another comment -->
     <!-- <span>@REPLYINGTO</span> -->
-    Comment content Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis numquam maxime eos corporis at
-    perferendis ex quis, delectus, dignissimos tempore culpa nobis. Nemo nihil nobis expedita ab! Aliquid, possimus
-    quibusdam.
+    Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the
+    design and the responsiveness at various breakpoints works really well.
   </p>
 </template>

@@ -8,7 +8,7 @@
           fill="#C5C6EF" />
       </svg>
     </button>
-    <span class="mx-3">{{ count }}</span>
+    <span class="font-bold text-moderate-blue mx-3">{{ count }}</span>
     <button @click="decrement" class="py-4 px-3">
       <svg width="11" height="3" xmlns="http://www.w3.org/2000/svg">
         <path
