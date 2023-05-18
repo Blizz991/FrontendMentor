@@ -14,12 +14,6 @@ const { data } = await useAsyncData('content-/data', () =>
 </script>
 <template>
   <section>
-    <h2>This is the default page content</h2>
-    <h3>Hello test {{ data.currentUser.username }}</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore non dolorem officiis debitis, nihil optio inventore
-      expedita ullam nemo cumque temporibus quidem ut voluptates nam! Totam tenetur fugiat reprehenderit nostrum!</p>
-      <pre>
-        {{ data }}
-      </pre>
+    
   </section>
 </template>
