@@ -7,12 +7,10 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
 </script>
 <template>
   <section>
-    <ul>
-      <li v-for="comment in data.comments">{{ comment }}</li>
-    </ul>
-    <!-- <pre>
+    <h1>The raw data from data.json</h1>
+    <pre>
       {{ data }}
-    </pre> -->
+    </pre>
   </section>
 </template>
 
