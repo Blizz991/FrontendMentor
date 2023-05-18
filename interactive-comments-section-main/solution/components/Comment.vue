@@ -5,7 +5,7 @@
       <CommentInfo :isCurrUser="isCurrUser" :user="comment.user" :createdAt="comment.createdAt" />
       <!-- Bit countintuitive to send the current user down, maybe usecase for helper functions or similar? -->
       <CommentActions :isCurrUser="isCurrUser" />
-      <CommentContent :content="comment.content" />
+      <CommentContent :replyingTo="comment.replyingTo" :content="comment.content" />
     </section>
   </article>
 </template>
@@ -15,7 +15,7 @@ import { computed } from 'vue'
 
 const props = defineProps({
   comment: Object,
-  currentUsername: Object
+  currentUsername: String
 });
 
 const isCurrUser = computed(() => {  
