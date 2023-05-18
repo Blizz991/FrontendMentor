@@ -6,9 +6,9 @@ const { data } = await useAsyncData(`content-${route.path}`, () =>
 );
 </script>
 <template>
-  <section>
+  <section class="p-8">
     <h1>The raw data from data.json</h1>
-    <pre>
+    <pre class="overflow-x-auto">
       {{ data }}
     </pre>
   </section>
