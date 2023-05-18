@@ -2,7 +2,12 @@
   <p class="w-full text-grayish-blue mt-2">
     <!-- Show span if this is a reply to another comment -->
     <!-- <span>@REPLYINGTO</span> -->
-    Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the
-    design and the responsiveness at various breakpoints works really well.
+    {{ content }}
   </p>
 </template>
+
+<script setup>
+const props = defineProps({
+  content: String,
+});
+</script>
