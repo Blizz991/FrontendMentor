@@ -26,6 +26,9 @@ module.exports = {
         'light-gray': 'hsl(223, 19%, 93%)',
         'very-light-gray': 'hsl(228, 33%, 97%)',
       },
+      fontFamily: {
+        'sans': ['Rubik',...defaultTheme.fontFamily.sans]
+      }
     },
   },
   plugins: [],
