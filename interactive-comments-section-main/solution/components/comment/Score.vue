@@ -8,7 +8,7 @@
           fill="#C5C6EF" />
       </svg>
     </button>
-    <span class="font-bold text-moderate-blue mx-3">{{ count }}</span>
+    <span class="font-bold text-moderate-blue mx-3">{{ score }}</span>
     <button @click="decrement" class="py-4 px-3">
       <svg width="11" height="3" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -20,9 +20,15 @@
 </template>
 
 <script setup>
+const props = defineProps({
+  score: {
+    type: Number,
+    default: 0
+  },
+});
 //TODO: Use current comment approval rating, set to 0 if N/A
 //TODO: Limit increment / decrement to once per user (and only one of the two) + display active state if one has been / is clicked.
-const count = ref(0);
-const increment = () => count.value++;
-const decrement = () => { if (count.value > 0) { count.value-- } };
+// const score = ref(0);
+// const increment = () => score.value++;
+// const decrement = () => { if (score.value > 0) { score.value-- } };
 </script>
