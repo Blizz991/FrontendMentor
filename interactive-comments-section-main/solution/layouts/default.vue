@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-very-light-gray h-screen flex justify-center items-center">
+  <section class="bg-very-light-gray">
     <slot></slot>
   </section>
 </template>
