@@ -13,7 +13,7 @@ const { data } = await useAsyncData('content-/data', () =>
 
 </script>
 <template>
-  <section class="p-20 min-h-screen flex justify-center items-center">
+  <section class="p-20 min-h-screen flex flex-wrap justify-center items-center">
     <Comments :data="data" />
   </section>
 </template>
